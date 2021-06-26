@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import CanvasJSReact from '../assets/canvasjs.react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import SysInfo from './SysInfo.js'
 
 var React = require('react');
 var Component = React.Component;
@@ -34,10 +35,12 @@ const ChartCPU = () => {
           })
       }
       console.log(data)
-      const title = 'CPU mesure'
+      const title = 'CPU measure'
     return (
         (data && data.length === 0 ? <div>Loading...</div> :
           <>
+          <h2>Your System</h2>
+          <SysInfo/>
           <h2 className='result-title'>{title}</h2>
           <div className='result-container'>
             {(data.map((item) => 
