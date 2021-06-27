@@ -34,7 +34,7 @@ const ChartCPU = () => {
           })
       }
       console.log(data)
-      const title = 'CPU mesure'
+      const title = 'CPU measurements'
     return (
         (data && data.length === 0 ? <div>Loading...</div> :
           <>

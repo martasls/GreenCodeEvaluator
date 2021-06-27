@@ -19,10 +19,10 @@ const Header = () => (
     <Nav.Link className="nav-item" eventKey="link-2">Best practices</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link className="nav-item" href="/total-time">Total time mesure</Nav.Link>
+    <Nav.Link className="nav-item" href="/total-time">Total time measurements</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link className="nav-item" href="/cpu">CPU mesure</Nav.Link>
+    <Nav.Link className="nav-item" href="/cpu">CPU measurments</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link className="nav-item" href="/unused">Unused imports</Nav.Link>
